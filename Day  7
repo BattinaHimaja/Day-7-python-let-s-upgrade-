@@ -1,0 +1,21 @@
+#DAY 7 ASSIGNMENT
+#1 PROGRAM
+port1={21:"FTP",22:"SSH",23:"telnet",80:"http"}
+port2={}
+for i,j in port1.items():
+	port2[j]=i
+print(port2)
+#2 PROGRAM
+tuple1=[(1,2),(3,4),(5,6),(4,5)]
+l=[]
+for i in range(0,len(tuple1)):
+	l.append(sum(tuple1[i]))
+print(l)
+#3 PROGRAM
+ln=[]
+l=[(1,2,3),[1,2],['a','hit','less']]
+for i in l:
+	for j in i:
+		ln.append(j)
+print(ln)
+		
